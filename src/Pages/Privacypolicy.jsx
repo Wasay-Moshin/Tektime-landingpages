@@ -28,9 +28,13 @@ function Privacypolicy() {
                     <div className="mt-5">
                         <h5 className="main-heading fs-5 fw-bold">1.3 Google Calendar Data</h5>
                         <p className="description fs-6">To provide our services, we may request access to your Google Calendar. This includes viewing and managing your calendar events to ensure seamless integration and improved user experience within TekTIME. We use the following sensitive scopes:</p>
-                        <ul className='description fs-6'>
-                            <li className="green-txtcolor"><Link to="" className="green-txtcolor text-decoration-none">https://www.googleapis.com/auth/calendar</Link></li>
-                            <li className="green-txtcolor"><Link to="" className="green-txtcolor text-decoration-none">https://www.googleapis.com/auth/calendar.events</Link></li>
+                        <ul className="description fs-6">
+                            <Link to="" className="green-txtcolor text-decoration-none">
+                                <li>https://www.googleapis.com/auth/calendar</li>
+                            </Link>
+                            <Link to="" className="green-txtcolor text-decoration-none">
+                                <li>https://www.googleapis.com/auth/calendar</li>
+                            </Link>
                         </ul>
                     </div>
                 </div>
