@@ -21,7 +21,7 @@ function Footer() {
                                 <h4 className="text-secondary mb-3 fs-5">Company</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link to="/" className="text-decoration-none footer-li-color">About us</Link>
+                                        <Link to="/about" className="text-decoration-none footer-li-color">About us</Link>
                                     </li>
                                     <li className='mt-2'>
                                         <Link to="/" className="text-white text-decoration-none">Contact us</Link>
