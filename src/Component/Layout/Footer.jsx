@@ -24,7 +24,7 @@ function Footer() {
                                         <Link to="/about" className="text-decoration-none footer-li-color">About us</Link>
                                     </li>
                                     <li className='mt-2'>
-                                        <Link to="/" className="text-white text-decoration-none">Contact us</Link>
+                                        <Link to="/contactus" className="text-white text-decoration-none">Contact us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -37,7 +37,7 @@ function Footer() {
                                         <Link to="/" className="text-white text-decoration-none">Features</Link>
                                     </li>
                                     <li className='mt-2'>
-                                        <Link to="/" className="text-white text-decoration-none">Pricing</Link>
+                                        <Link to="/pricing" className="text-white text-decoration-none">Pricing</Link>
                                     </li>
                                     <li className='mt-2'>
                                         <Link to="/" className="text-white text-decoration-none">News</Link>
@@ -50,10 +50,10 @@ function Footer() {
                                 <h4 className="text-secondary mb-3 fs-5">Legal</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link to="/" className="text-white text-decoration-none">Privacy Policy</Link>
+                                        <Link to="/privacy-policy" className="text-white text-decoration-none">Privacy Policy</Link>
                                     </li>
                                     <li className='mt-2'>
-                                        <Link to="/" className="text-white text-decoration-none">Terms & Conditions</Link>
+                                        <Link to="/terms&conditions" className="text-white text-decoration-none">Terms & Conditions</Link>
                                     </li>
                                 </ul>
                             </div>

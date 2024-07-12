@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 
-function Pricingandplans() {
+function Pricingandplans({heading, mainheading}) {
   return (
     <div className='mt-5 pt-5' id='pricing'>
         <div className="container text-center">
-            <p className="description text-danger">Our Pricing and plans</p>
-            <h4 className="main-heading fw-bold fs-3">We offer a comprehensive meeting <br className="d-none d-md-block" /> platform designed for your needs.</h4>
+            <p className="description text-danger">{heading}</p>
+            <h4 className="main-heading fw-bold fs-3">{mainheading}</h4>
             <div className="row">
                 <div className="col-lg-4 col-md-4 mt-4 mt-md-5 px-5 px-md-2 px-lg-5">
                     <div className="card shadow active-card rounded-4">

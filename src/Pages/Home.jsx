@@ -14,17 +14,21 @@ import Testimonials from '../Component/Element/Testimonials'
 function Home() {
   return (
     <div>
-        <Heros/>
-        <Brands/>
-        <Whatistektime/>
-        <Trackmoment/>
-        <Participantsandassign/>
-        <Givingservices/>
-        <Pricingandplans/>
-        <Whychooseus/>
-        <Features/>
-        <Streamllineyourmeeting/>
-        <Testimonials/>
+      <Heros />
+      <Brands />
+      <Whatistektime />
+      <Trackmoment />
+      <Participantsandassign />
+      <Givingservices />
+      <Pricingandplans heading="Our Pricing and plans" mainheading={
+        <>
+          We offer a comprehensive meeting <br className="d-none d-md-block" /> platform designed for your needs.
+        </>
+      } />
+      <Whychooseus />
+      <Features />
+      <Streamllineyourmeeting />
+      <Testimonials />
     </div>
   )
 }

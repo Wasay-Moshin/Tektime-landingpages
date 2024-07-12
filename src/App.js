@@ -7,6 +7,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Privacypolicy from "./Pages/Privacypolicy";
 import Termsandconditions from "./Pages/Termsandconditions";
+import Contactus from "./Pages/Contactus";
+import Planandpricing from "./Pages/Planandpricing";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/privacy-policy" element={<Privacypolicy/>}/>
             <Route path="/terms&conditions" element={<Termsandconditions/>}/>
+            <Route path="/contactus" element={<Contactus/>}/>
+            <Route path="/pricing" element={<Planandpricing/>}/>
           </Routes>
         </Base>
       </BrowserRouter>
