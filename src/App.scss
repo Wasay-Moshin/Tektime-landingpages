@@ -1,0 +1,172 @@
+.navbar-nav {
+  li {
+    margin: 0 20px;
+  }
+
+  .nav-link {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/* Add this to your CSS file */
+#navbar.scrolled {
+  background-color: white !important;
+}
+
+.main-hero {
+  #hero {
+    background: url(../public/Assets/hero-bg.svg);
+    height: 100vh;
+  }
+
+  .hero-img-position {
+    top: -250px;
+  }
+
+  .hero-img-container {
+    height: 80vh;
+  }
+}
+
+.btn {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.signup-btn {
+  background: rgba(71, 59, 240, 1);
+}
+
+.signup-btn:hover {
+  background: rgba(71, 59, 240, 1);
+}
+
+.pricing-btn {
+  background: rgba(240, 239, 254, 1);
+}
+
+.pricing-btn:hover {
+  background: rgba(240, 239, 254, 1);
+}
+
+.main-heading {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.description {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.darkblue-txtcolor {
+  color: rgba(71, 59, 240, 1);
+}
+
+.green-txtcolor{
+  color: rgba(104, 213, 133, 1);
+}
+
+.why-choose-us {
+  background: rgba(244, 247, 250, 1);
+}
+
+
+#pricing {
+  .card {
+    height: 410px;
+  }
+
+  .active-card {
+    border: 3px solid rgba(0, 67, 255, 1);
+    background: rgba(240, 239, 254, 1);
+  }
+}
+
+.testimonials{
+  background: url(../public/Assets/testimonial-bg.png);
+}
+
+.footer {
+  background: rgba(22, 28, 45, 1);
+
+  h4 {
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  li {
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .footer-li-color {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+
+@media(max-width: 1024px) {
+  .main-hero {
+    .hero-img-position {
+      top: -180px;
+    }
+  }
+
+  .main-heading {
+    font-size: 45px;
+  }
+}
+
+@media(max-width: 768px) {
+  .main-hero {
+    .hero-img-position {
+      top: -210px;
+    }
+
+    .hero-img-container {
+      height: 50vh;
+    }
+  }
+
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 576px) {
+  .main-hero {
+    .hero-img-position {
+      top: -180px;
+    }
+
+    .hero-img-container {
+      height: 22vh;
+    }
+  }
+
+  .main-heading {
+    font-size: 35px;
+  }
+}
+
+@media(max-width: 375px) {
+  .main-hero {
+    .hero-img-position {
+      top: -190px;
+    }
+
+    .hero-img-container {
+      height: 14vh;
+    }
+  }
+}
