@@ -222,6 +222,12 @@
       left: 170px;
     }
   }
+
+  .footer{
+    .social-icons{
+      justify-content: center;
+    }
+  }
 }
 
 @media(max-width: 375px) {

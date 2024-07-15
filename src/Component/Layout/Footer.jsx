@@ -7,16 +7,16 @@ function Footer() {
             <div className="footer-top py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 col-6 mt-3">
+                        <div className="col-md-4 text-center text-md-start mt-4">
                             <img src="Assets/footer-logo.png" alt="" className="img-fluid" />
-                            <div className='d-flex gap-3 flex-wrap mt-3'>
+                            <div className='d-flex gap-3 flex-wrap mt-3 social-icons'>
                                 <Link to='/'><img src="Assets/logo-twitter.svg" alt="" className="img-fluid" /></Link>
                                 <Link to='/'><img src="Assets/logo-facebook.svg" alt="" className="img-fluid" /></Link>
                                 <Link to='/'><img src="Assets/logo-instagram.svg" alt="" className="img-fluid" /></Link>
                                 <Link to='/'><img src="Assets/logo-linkedin.svg" alt="" className="img-fluid" /></Link>
                             </div>
                         </div>
-                        <div className="col-md-3 col-6 mt-3">
+                        <div className="col-md-3 col-6 mt-4">
                             <div>
                                 <h4 className="text-secondary mb-3 fs-5">Company</h4>
                                 <ul className="list-unstyled">
@@ -29,7 +29,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3 col-6 mt-3">
+                        <div className="col-md-3 col-6 mt-4">
                             <div>
                                 <h4 className="text-secondary mb-3 fs-5">Product</h4>
                                 <ul className="list-unstyled">
@@ -45,7 +45,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-2 col-6 mt-3">
+                        <div className="col-md-2 col-6 mt-4">
                             <div>
                                 <h4 className="text-secondary mb-3 fs-5">Legal</h4>
                                 <ul className="list-unstyled">
