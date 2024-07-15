@@ -9,7 +9,7 @@ function Pricingandplans({heading, mainheading}) {
             <h4 className="main-heading fw-bold fs-3">{mainheading}</h4>
             <div className="row">
                 <div className="col-lg-4 col-md-4 mt-4 mt-md-5 px-5 px-md-2 px-lg-5">
-                    <div className="card shadow active-card rounded-4">
+                    <div className="card shadow border-0 rounded-4">
                         <div className="card-body">
                             <p className="description darkblue-txtcolor fw-bold">Offer Free for 3 months</p>
                             <h4 className="main-heading fs-3 fw-bold"><span className='fs-5'>For</span> <span>1 licence</span></h4>

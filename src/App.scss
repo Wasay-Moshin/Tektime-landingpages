@@ -84,8 +84,8 @@
     height: 410px;
   }
 
-  .active-card {
-    border: 3px solid rgba(0, 67, 255, 1);
+  .card:hover {
+    border: 3px solid rgba(0, 67, 255, 1) !important;
     background: rgba(240, 239, 254, 1);
   }
 }
