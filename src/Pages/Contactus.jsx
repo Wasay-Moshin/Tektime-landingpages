@@ -3,13 +3,13 @@ import React from 'react'
 function Contactus() {
     return (
         <div className='mt-5 pt-5'>
-            <div className="why-choose-us py-4">
-                <div className="container">
+            <div className="why-choose-us py-4 pb-5">
+                <div className="container pb-5" >
                     <div className="text-center">
                         <h5 className="main-heading fw-bold my-4">Contact us</h5>
                         <p className="description">With lots of unique blocks, you can easily build a page without coding. <br className="d-none d-md-block" /> Build your next consultancy website within few minutes.</p>
                     </div>
-                    <div className="row">
+                    <div className="row my-5">
                         <div className="col-md-4 mt-4">
                             <div className="d-flex gap-2">
                                 <div>
@@ -46,7 +46,7 @@ function Contactus() {
                         </div>
                     </div>
 
-                    <div className="card border-0 rounded-3 mt-5">
+                    <div className="card border-0 rounded-3 mt-5 card-shadow mb-5 rounded-4" data-aos="zoom-in">
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6 mt-4">

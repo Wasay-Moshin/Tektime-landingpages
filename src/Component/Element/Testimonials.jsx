@@ -14,7 +14,7 @@ function Testimonials() {
                             </div>
                             <div>
                                 <p className="description fs-6 text-white mb-0">lan Klein</p>
-                                <p className="description fs-6  mb-0">Digital Marketer</p>
+                                <p className="description fs-6  mb-0 text-white">Digital Marketer</p>
                             </div>
                         </div>
                         <div className="d-flex gap-2 align-items-center mt-3">

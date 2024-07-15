@@ -31,6 +31,14 @@
   }
 }
 
+.about-tektime{
+  height: 100vh;
+}
+
+.card-shadow{
+  box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.13);
+}
+
 .btn {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 15px;
@@ -70,7 +78,7 @@
   color: rgba(71, 59, 240, 1);
 }
 
-.green-txtcolor{
+.green-txtcolor {
   color: rgba(104, 213, 133, 1);
 }
 
@@ -90,24 +98,24 @@
   }
 }
 
-.testimonials{
+.testimonials {
   background: url(../public/Assets/testimonial-bg.png);
 }
 
-.way-of-supporting{
-  .supporting-card{
+.way-of-supporting {
+  .supporting-card {
     background: url(../public/Assets/supporting-card.png);
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0px 6px 44px -10px rgba(1, 23, 48, 0.12);
   }
 
-  .cursor-img{
+  .cursor-img {
     position: absolute;
     top: -25px;
     left: 245px;
   }
-  
+
 }
 
 .footer {
@@ -130,6 +138,14 @@
   }
 }
 
+@media (width: 1920px) {
+  .main-hero {
+    .hero-img-position {
+      top: -300px;
+    }
+  }
+}
+
 
 @media(max-width: 1024px) {
   .main-hero {
@@ -142,15 +158,15 @@
     font-size: 45px;
   }
 
-  .way-of-supporting{
-    .cursor-img{
+  .way-of-supporting {
+    .cursor-img {
       position: absolute;
       top: -25px;
       left: 205px;
-    }   
+    }
   }
 
-  .navbar{
+  .navbar {
     background: white;
   }
 }
@@ -170,12 +186,12 @@
     font-size: 40px;
   }
 
-  .way-of-supporting{
-    .cursor-img{
+  .way-of-supporting {
+    .cursor-img {
       position: absolute;
       top: -15px;
       left: 148px;
-    }   
+    }
   }
 }
 
@@ -194,12 +210,12 @@
     font-size: 35px;
   }
 
-  .way-of-supporting{
-    .cursor-img{
+  .way-of-supporting {
+    .cursor-img {
       position: absolute;
       top: -18px;
       left: 170px;
-    }   
+    }
   }
 }
 
@@ -214,11 +230,11 @@
     }
   }
 
-  .way-of-supporting{
-    .cursor-img{
+  .way-of-supporting {
+    .cursor-img {
       position: absolute;
       top: -18px;
       left: 150px;
-    }   
+    }
   }
 }

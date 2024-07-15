@@ -9,19 +9,28 @@ import Privacypolicy from "./Pages/Privacypolicy";
 import Termsandconditions from "./Pages/Termsandconditions";
 import Contactus from "./Pages/Contactus";
 import Planandpricing from "./Pages/Planandpricing";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
       <BrowserRouter>
         <Base>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/privacy-policy" element={<Privacypolicy/>}/>
-            <Route path="/terms&conditions" element={<Termsandconditions/>}/>
-            <Route path="/contactus" element={<Contactus/>}/>
-            <Route path="/pricing" element={<Planandpricing/>}/>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacy-policy" element={<Privacypolicy />} />
+            <Route path="/terms&conditions" element={<Termsandconditions />} />
+            <Route path="/contactus" element={<Contactus />} />
+            <Route path="/pricing" element={<Planandpricing />} />
           </Routes>
         </Base>
       </BrowserRouter>

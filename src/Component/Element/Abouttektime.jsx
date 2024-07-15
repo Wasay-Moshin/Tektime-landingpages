@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Abouttektime() {
     return (
-        <div className='mt-5 pt-5'>
+        <div className='mt-5 pt-5 about-tektime'>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 mt-3">
