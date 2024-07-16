@@ -86,7 +86,7 @@ function Whatistektime() {
                         </p>
                     </div>
                 </div>
-                <div className="row mt-4" data-aos="zoom-in">
+                <div className="row mt-4">
                     <div className="col-md-4 mt-3 text-center border-end">
                         <h1 className="main-heading fw-bold">
                             <CountUp end={47} suffix="%" />
