@@ -149,6 +149,21 @@
       top: -300px;
     }
   }
+
+  .way-of-supporting{
+    .supporting-card {
+      background: url(../public/Assets/supporting-card.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: none;
+    }
+
+    .cursor-img {
+      position: absolute;
+      top: -25px;
+      left: 295px;
+    }
+  }
 }
 
 

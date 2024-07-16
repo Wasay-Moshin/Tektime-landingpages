@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 function Abouttektime() {
     return (
         <div className='mt-5 pt-5 about-tektime'>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-6 mt-3">
                         <p className="description fs-6 text-danger">ABOUT TEKTIME</p>
@@ -20,7 +20,7 @@ function Abouttektime() {
                         </div>
                         <button className="btn signup-btn text-white mt-3">Get a free demo now</button>
                     </div>
-                    <div className="col-md-6 mt-3">
+                    <div className="col-md-6 mt-3 text-end">
                         <img src="Assets/about-tektime.png" alt="" className="img-fluid" />
                     </div>
                 </div>
