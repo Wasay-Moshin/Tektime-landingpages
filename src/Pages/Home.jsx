@@ -10,6 +10,7 @@ import Whychooseus from '../Component/Element/Whychooseus'
 import Features from '../Component/Element/Features'
 import Streamllineyourmeeting from '../Component/Element/Streamllineyourmeeting'
 import Testimonials from '../Component/Element/Testimonials'
+import Percentage from '../Component/Element/Percentage'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Heros />
       <Brands />
       <Whatistektime />
+      <Percentage/>
       <Trackmoment />
       <Participantsandassign />
       <Givingservices />

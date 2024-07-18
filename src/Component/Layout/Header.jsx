@@ -110,10 +110,10 @@ function Header() {
                                     <Link to="/about" className="nav-link pb-1">About us</Link>
                                 </li>
                                 <li className={`nav-item ${activeLink === '/solutions' ? 'active' : ''}`}>
-                                    <Link to="/solutions" className="nav-link pb-1">Solutions</Link>
+                                    <Link  className="nav-link pb-1">Solutions</Link>
                                 </li>
                                 <li className={`nav-item ${activeLink === '/product' ? 'active' : ''}`}>
-                                    <Link to="/product" className="nav-link pb-1">Product</Link>
+                                    <Link  className="nav-link pb-1">Product</Link>
                                 </li>
                                 <li className={`nav-item ${activeLink === '/contactus' ? 'active' : ''}`}>
                                     <Link to="/contactus" className="nav-link pb-1">Contact</Link>

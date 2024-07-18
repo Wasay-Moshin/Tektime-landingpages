@@ -16,7 +16,6 @@
 
 }
 
-/* Add this to your CSS file */
 #navbar.scrolled {
   background-color: white !important;
 }
@@ -24,7 +23,7 @@
 .main-hero {
   #hero {
     background: url(../public/Assets/hero-bg.svg);
-    height: 100vh;
+    height: 90vh;
   }
 
   .hero-img-position {
@@ -34,6 +33,9 @@
   .hero-img-container {
     height: 80vh;
   }
+ 
+    
+
 }
 
 .about-tektime {
