@@ -14,9 +14,9 @@ function Heros() {
             </div>
 
             <div>
-                <div className="container hero-img-container">
+                <div className="container-fluid me-5 hero-img-container">
                     <div className='position-relative hero-img-position'>
-                        <img src="Assets/hero-img-positon.png" alt="" className='img-fluid' />
+                        <img src="Assets/image (1).svg" alt="" className='img-fluid' />
                     </div>
                 </div>
             </div>

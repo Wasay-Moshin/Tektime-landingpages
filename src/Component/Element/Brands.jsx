@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 function Brands() {
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <Marquee>
                 <div className="d-flex gap-5">
                     <img src="Assets/logo-1.png" alt="" className="img-fluid me-3" />
