@@ -9,7 +9,7 @@ function Trackmoment() {
         <div className="row align-items-center">
           <div className="col-md-6 mt-3">
             <img
-              src="Assets/image (2).svg"
+              src="/Assets/image (2).svg"
               alt=""
               className="img-fluid"
               data-aos="fade-up"
