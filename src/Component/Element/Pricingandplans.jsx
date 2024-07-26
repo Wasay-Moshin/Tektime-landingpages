@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-
+import CalendlyLink from "./CalendlyLink";
 const plans = [
   {
     id: 1,
@@ -35,6 +35,9 @@ const plans = [
 ];
 
 function Pricingandplans({ heading, mainheading }) {
+  const openCalendlyLink = CalendlyLink(
+    "https://calendly.com/tektime/tektime-qu-est-ce-que-c-est"
+  );
   return (
     <div className="pt-5" id="pricing">
       <div className="container text-center">
@@ -57,7 +60,7 @@ function Pricingandplans({ heading, mainheading }) {
                   </h4>
                 </div>
                 <div className="card-footer bg-transparent border-0">
-                  <button className="pricing-btn fw-bold">
+                  <button className="pricing-btn fw-bold" onClick={openCalendlyLink}>
                     Start Free Trial <FaArrowRight className="ms-3" />
                   </button>
                   {/* <p className="description fs-6 mt-2">

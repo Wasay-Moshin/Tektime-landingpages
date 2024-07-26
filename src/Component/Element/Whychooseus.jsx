@@ -1,5 +1,6 @@
 import React from "react";
 import CalendlyLink from "./CalendlyLink";
+import { Link } from "react-router-dom";
 function Whychooseus() {
   const openCalendlyLink = CalendlyLink("https://www.sunrisecharity.com/");
   return (
@@ -12,7 +13,7 @@ function Whychooseus() {
         </h4>
         <div className="row">
           <div className="col-md-4">
-            <button onClick={openCalendlyLink} className=" mt-3 text-start">
+            <button className=" mt-3 text-start">
               <div className="d-flex gap-4">
                 <div>
                   <img
@@ -27,6 +28,13 @@ function Whychooseus() {
                   <p className="description">
                     A portion of sales will be donated to the Sunrise Charity
                     associative platform.
+                    <br />
+                    <img
+                      onClick={openCalendlyLink}
+                      src="Assets/landing/sun.jpeg"
+                      alt=""
+                      className="img-fluid mt-3"
+                    />
                   </p>
                 </div>
               </div>
