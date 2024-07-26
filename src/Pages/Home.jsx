@@ -16,7 +16,7 @@ function Home() {
   return (
     <div>
       <Heros />
-      <Brands />
+      {/* <Brands /> */}
       <Whatistektime />
       <Percentage />
       <Trackmoment />

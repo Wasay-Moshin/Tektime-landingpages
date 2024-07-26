@@ -12,7 +12,7 @@ function Checkourfeatures() {
                     <div className="col-md-4 mt-4">
                         <div className="d-flex gap-3">
                             <div>
-                                <img src="Assets/setup.png" alt="" width={80} className="img-fluid" />
+                                <img src="Assets/landing/setup.png" alt="" width={80} className="img-fluid" />
                             </div>
                             <div>
                                 <h5 className="main-heading fs-5 fw-bold">Quick setup progress</h5>
@@ -23,7 +23,7 @@ function Checkourfeatures() {
                     <div className="col-md-4 mt-4">
                         <div className="d-flex gap-3">
                             <div>
-                                <img src="Assets/orders.png" alt="" width={80} className="img-fluid" />
+                                <img src="Assets/landing/orders.png" alt="" width={80} className="img-fluid" />
                             </div>
                             <div>
                                 <h5 className="main-heading fs-5 fw-bold">Create custom orders</h5>
@@ -34,7 +34,7 @@ function Checkourfeatures() {
                     <div className="col-md-4 mt-4">
                         <div className="d-flex gap-3">
                             <div>
-                                <img src="Assets/coupon.png" alt="" width={80} className="img-fluid" />
+                                <img src="Assets/landing/coupon.png" alt="" width={80} className="img-fluid" />
                             </div>
                             <div>
                                 <h5 className="main-heading fs-5 fw-bold">Multiple Coupons</h5>

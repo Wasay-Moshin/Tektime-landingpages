@@ -21,7 +21,7 @@ function Abouttektime() {
                         <button className="btn signup-btn text-white mt-3">Get a free demo now</button>
                     </div>
                     <div className="col-md-6 mt-3 text-end">
-                        <img src="Assets/about-tektime.png" alt="" className="img-fluid" />
+                        <img src="Assets/landing/about-tektime.png" alt="" className="img-fluid" />
                     </div>
                 </div>
             </div>

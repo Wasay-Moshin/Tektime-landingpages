@@ -96,7 +96,7 @@ function Header() {
       >
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src="Assets/logo.png" alt="" className="img-fluid" />
+            <img src="Assets/landing/logo.png" alt="" className="img-fluid" />
           </Link>
           <button
             className="navbar-toggler bg-white"
@@ -128,7 +128,7 @@ function Header() {
                     About us
                   </Link>
                 </li>
-                <li
+                {/* <li
                   className={`nav-item ${
                     activeLink === "/solutions" ? "active" : ""
                   }`}
@@ -141,8 +141,8 @@ function Header() {
                   }`}
                 >
                   <Link className="nav-link pb-1">Product</Link>
-                </li>
-                <li
+                </li> */}
+                {/* <li
                   className={`nav-item ${
                     activeLink === "/contactus" ? "active" : ""
                   }`}
@@ -150,7 +150,7 @@ function Header() {
                   <Link to="/contactus" className="nav-link pb-1">
                     Contact
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link to="/" className="nav-link ps-0 pb-1 ps-md-3">
                   <div class="container-door">

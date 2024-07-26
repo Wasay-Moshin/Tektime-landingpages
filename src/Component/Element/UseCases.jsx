@@ -2,19 +2,19 @@ import React from "react";
 
 const useCasesData = [
   {
-    imgSrc: "Assets/case1.png",
+    imgSrc: "Assets/landing/case1.png",
     text: "Process and productivity management",
   },
   {
-    imgSrc: "Assets/case2.png",
+    imgSrc: "Assets/landing/case2.png",
     text: "Data and analytics solutions",
   },
   {
-    imgSrc: "Assets/case3.png",
+    imgSrc: "Assets/landing/case3.png",
     text: "Customer engagement platforms",
   },
   {
-    imgSrc: "Assets/case4.png",
+    imgSrc: "Assets/landing/case4.png",
     text: "IT infrastructure optimization",
   },
 ];

@@ -13,7 +13,7 @@ function Contactus() {
                         <div className="col-md-4 mt-4">
                             <div className="d-flex gap-2">
                                 <div>
-                                    <img src="Assets/call.png" alt="" className="img-fluid" />
+                                    <img src="Assets/landing/call.png" alt="" className="img-fluid" />
                                 </div>
                                 <div>
                                     <h5 className="main-heading fs-5 fw-bold">Call us</h5>
@@ -25,7 +25,7 @@ function Contactus() {
                         <div className="col-md-4 mt-4">
                             <div className="d-flex gap-2">
                                 <div>
-                                    <img src="Assets/mail.png" alt="" className="img-fluid" />
+                                    <img src="Assets/landing/mail.png" alt="" className="img-fluid" />
                                 </div>
                                 <div>
                                     <h5 className="main-heading fs-5 fw-bold">Email us</h5>
@@ -36,7 +36,7 @@ function Contactus() {
                         <div className="col-md-4 mt-4">
                             <div className="d-flex gap-2">
                                 <div>
-                                    <img src="Assets/call.png" alt="" className="img-fluid" />
+                                    <img src="Assets/landing/call.png" alt="" className="img-fluid" />
                                 </div>
                                 <div>
                                     <h5 className="main-heading fs-5 fw-bold">Visit us</h5>

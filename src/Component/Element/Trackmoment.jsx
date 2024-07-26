@@ -1,15 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import CalendlyLink from "./CalendlyLink";
 
 function Trackmoment() {
+  const openCalendlyLink = CalendlyLink(
+    "https://calendly.com/tektime/tektime-qu-est-ce-que-c-est"
+  );
   return (
     <div className="mt-5 pt-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 mt-3">
             <img
-              src="/Assets/Track.svg"
+              src="/Assets/landing/Track.svg"
               alt=""
               className="img-fluid"
               data-aos="fade-up"
@@ -25,12 +29,9 @@ function Trackmoment() {
               this platform, featuring real-time updates, task assignments, and
               comprehensive analytics
             </p>
-            <Link
-              to=""
-              className="darkblue-txtcolor description fw-bold text-decoration-none fs-5"
-            >
+            <button onClick={openCalendlyLink} className="btn-demo">
               Get a demo now <FaArrowRight />
-            </Link>
+            </button>
           </div>
         </div>
       </div>

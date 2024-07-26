@@ -11,7 +11,7 @@ function Whatistektime() {
                 <div className="row mt-5 ">
                     <div className="col-md-6 mt-4">
                         <div className='d-flex justify-content-center'>
-                        <img src="Assets/report 1.svg" alt="" className="img-fluid" data-aos="fade-right"/>
+                        <img src="Assets/landing/report 1.svg" alt="" className="img-fluid" data-aos="fade-right"/>
                         </div>
                     </div>
                     <div className="col-md-6 mt-4" data-aos="fade-down">
@@ -20,10 +20,10 @@ function Whatistektime() {
                         </div> */}
                         <div className="d-flex align-items-center">
                             <div>
-                                <img src="Assets/Meeting 1.svg" alt="" className="img-fluid" />
+                                <img src="Assets/landing/Meeting 1.svg" alt="" className="img-fluid" />
                             </div>
                             <div>
-                                <img src="Assets/Option 1.svg" alt="" className="img-fluid" />
+                                <img src="Assets/landing/Option 1.svg" alt="" className="img-fluid" />
                             </div>
                         </div>
                         <p className="description">
